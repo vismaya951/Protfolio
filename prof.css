@@ -1,0 +1,134 @@
+body{
+    margin:0px;
+    font-family: sans-serif;
+    background-color:  whitesmoke;
+}
+a:link{
+    text-decoration: none;
+    font-family: "Neue Montreal",sans-serif;
+}
+.nav-bar{
+    width: 100%;
+    height: 60px;
+    background-color:whitesmoke ;
+    display: flex;
+    margin: auto;   
+    justify-content: space-between;
+    border: 1px solid;  
+}
+.my-name{
+    padding-left: 100px;
+    margin-top: 8px;
+    font-family:cursive;;
+    font-size: xx-large;
+    width: 50%;
+}
+.nav-menu{
+    font-style: italic;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu{
+    padding-left: 250px;
+    font-size: 50px;    
+}
+.navpart2{
+    width: 50%;
+    margin-top: 20px;
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    margin-top: 0;
+    display: flex;
+}
+.head1{
+    font-size: 70px;
+    font-weight: bolder;
+    color: rgb(54, 56, 165);
+}
+.head2{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(54, 56, 165);
+}
+.head-color{
+    color: rgb(142, 23, 179);
+}
+.home-para{
+    font-size: 20px;
+    color: black;
+}
+.home-left{
+    /* border: 1px solid black; */
+    font-size: 40px;
+    color: black;
+    width: 50%;
+}
+.social-media{
+    /* border: 1px solid black; */
+    text-decoration: none;
+    display: flex;
+    /* border:; */
+}
+icon-container{
+    width: 70px;
+    height: 70px;
+    border: 3px solid #00ff51;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s;
+}
+.contact-btn{
+    width: 150px;
+    height: 45px;
+    background-color: #00ff51;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.home-right{
+    /* border: 1px solid black; */
+    width: 50%;
+    margin-top: 30px;
+}
+.photo1{
+    width: 500px;
+    height: 600px;
+    border-radius: 10%;
+}
+
+#about{
+    width: 100%;
+    height: 100vh;    
+}
+.about-left{
+    /* border: 1px solid black; */
+    /* width: 100%; */
+    display:flex;
+
+}
+.about-right{
+    width: 50%;
+    /* border: 1px solid black;  */
+    margin-left: 200px;   
+}
+.photo2{
+    width: 330px;
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+.about-para{
+    font-size: 25px
+}
+.about-head{
+    font-size: 40px;
+}
