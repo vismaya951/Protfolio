@@ -76,7 +76,7 @@ a:link{
 icon-container{
     width: 70px;
     height: 70px;
-    border: 3px solid #00ff51;
+    /* border: 3px solid #00ff51; */
     border-radius: 50%;
     justify-content: center;
     align-items: center;
@@ -85,7 +85,7 @@ icon-container{
 .contact-btn{
     width: 150px;
     height: 45px;
-    background-color: #00ff51;
+    /* background-color: #00ff51; */
     border-radius: 25px;
     border: none;
     font-size: 20px;
@@ -158,7 +158,7 @@ icon-container{
 .skill-sub{
     height: 100%;
     width: 50%;
-    background-color:rgb(201, 106, 230);
+    background-color:rgb(234, 183, 250);
     border-radius: 50px;
     display: flex;
     flex-direction: column;
@@ -251,3 +251,74 @@ icon-container{
     text-decoration: none;
     /* color: black; */
 } 
+#contact{
+    /* padding-top: 100px; 
+    margin-top: -100px; */
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(201, 106, 230); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 4px solid rgb(174, 81, 197); */
+}
+.contact-head{
+    font-size: 65px;
+    font-weight: bolder;
+    color: rgb(201, 106, 230);
+    /* border: 1px solid black; */
+}
+.contact-form{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+}
+.contact-input{
+    width: 90%;
+    height: 15%;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: 5px solid rgb(198, 135, 218);
+}
+#message{
+    width: 90%;
+    height: 35%;
+    border-radius: 30px;
+    border: 5px solid rgb(198,135,218);
+    outline: none;
+}
+#send{
+    width: 200px;
+    height: 45px;
+    background-color: rgb(172, 107, 192);
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.contact-btn:hover{
+    transform: scale(1.2);
+}
+.navbar-items a:hover{
+    /* color: #00ff51; */
+}
+.icon-container:hover{
+    /* background-color: #00ff51;
+    transform: scale(1.2); */
+}
+.icon-container i:hover{
+    /* color: white;/ */
+}
+.contact-form input::placeholder{
+    font-size: 20px;
+}
+#send:hover{
+    transform: scale(1.2);
+}

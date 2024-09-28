@@ -6,6 +6,19 @@
         <title>Protfolio personal Complete</title>
         <link rel="stylesheet" href="prof.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+
+        <script src="prof.js"></script>
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "YOUR_PUBLIC_KEY",
+            });
+        })();
+        </script>
+
     </head>
     <body>
         <div class="main-container">
@@ -127,6 +140,16 @@
             </div>
         </div>
 
+        <div id="contact">
+            <h1 class="contact-head">Contact <span class="head-color">Me</span></h1>
+            <div class="contact-form">
+                <input type="text" placeholder="Full Name" id="Name" class="contact-input">
+                <input type="email" placeholder="Email" id="Email" class="contact-input">
+                <input type="text" placeholder="Subject" id="Subject" class="contact-input">
+                <textarea id="message"></textarea>
+                <button id="send" onclick="sendMail()">Send Message </button>
+            </div>
+        </div>
 
     </body>
 </html>
