@@ -3,7 +3,7 @@ function submit(){
     let params= {
         name: document.getElementById("name").value,
         email: document.getElementById("email").value,
-        subject: document.getElementById("submit").value,
+        subject: document.getElementById("subject").value,
         message:document.getElementById("message").value,
     };
 
@@ -17,7 +17,7 @@ function submit(){
         document.getElementById("message").value="";
         console.log(res);
 
-        alert("Successfully Submited");
+        alert("Successfully Submit");
     })
 .catch((err)=>console.log(err)
 );
