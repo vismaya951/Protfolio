@@ -7,6 +7,8 @@ a:link{
     text-decoration: none;
     font-family: "Neue Montreal",sans-serif;
 }
+
+
 .nav-bar{
     width: 100%;
     height: 60px;
@@ -36,6 +38,7 @@ a:link{
     width: 50%;
     margin-top: 20px;
 }
+
 
 #home{
     width: 100%;
@@ -104,6 +107,7 @@ icon-container{
     border-radius: 10%;
 }
 
+
 #about{
     width: 100%;
     height: 100vh;    
@@ -112,7 +116,6 @@ icon-container{
     /* border: 1px solid black; */
     /* width: 100%; */
     display:flex;
-
 }
 .about-right{
     width: 50%;
@@ -132,6 +135,7 @@ icon-container{
 .about-head{
     font-size: 40px;
 }
+
 
 #skill{
     width: 100%;
@@ -169,7 +173,6 @@ icon-container{
     margin-bottom: 30px;
     margin-top: 30px;
 }
-
 .skill-sub i{
     font-size: 100px;
 }
@@ -189,6 +192,7 @@ icon-container{
     /* margin-left: 10px;
     margin-right: 10px; */
 }
+
 
 #project{
 
@@ -244,13 +248,14 @@ icon-container{
     background-size: cover;
     border: 1px solid black;
 }
-
 .project-sub a{
     font-size: 30px;
     font-weight: bolder;
     text-decoration: none;
     /* color: black; */
 } 
+
+
 #contact{
     /* padding-top: 100px; 
     margin-top: -100px; */
@@ -261,12 +266,11 @@ icon-container{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    /* border: 4px solid rgb(174, 81, 197); */
 }
 .contact-head{
     font-size: 65px;
     font-weight: bolder;
-    color: rgb(201, 106, 230);
+    /* color: rgb(201, 106, 230); */
     /* border: 1px solid black; */
 }
 .contact-form{
@@ -291,6 +295,7 @@ icon-container{
     border-radius: 30px;
     border: 5px solid rgb(198,135,218);
     outline: none;
+    /* background-color: bisque; */
 }
 #send{
     width: 200px;
@@ -303,19 +308,19 @@ icon-container{
     cursor: pointer;
     transition: transform 1s;
 }
-.contact-btn:hover{
+/* .contact-btn:hover{
     transform: scale(1.2);
-}
-.navbar-items a:hover{
-    /* color: #00ff51; */
-}
-.icon-container:hover{
-    /* background-color: #00ff51;
-    transform: scale(1.2); */
-}
-.icon-container i:hover{
-    /* color: white;/ */
-}
+} */
+/* .navbar-items a:hover{
+    color: #00ff51;
+} */
+/* .icon-container:hover{
+    background-color: #00ff51;
+    transform: scale(1.2);
+} */
+/* .icon-container i:hover{
+    color: white;/
+} */
 .contact-form input::placeholder{
     font-size: 20px;
 }

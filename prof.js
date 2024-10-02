@@ -1,21 +1,24 @@
-function sendMail() {
-    var params = {
-        name: document.getElementById("Name").value ,
-        email: document.getElementById("Email").value ,
-        messege: document.getElementById("Subject").value ,    
-    };
-const serviceID ="service_nurh2mq";
-const templateID = "template_17mo84f";
+function submit(){
 
-emailjs.send(serviceID,templateID,params)
-.then(
-    res =>{
-        document.getElementById("Name").value="";
-        document.getElementById("Email").value="";
-        document.getElementById("Subect").value="";
+    let params= {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        subject: document.getElementById("submit").value,
+        message:document.getElementById("message").value,
+    };
+
+    const serviceid= "service_zxgjujl";
+    const templateid= "template_n3mhig8";
+
+    emailjs.send(serviceid,templateid,params).then((res)=>{
+        document.getElementById("name").value= "";
+        document.getElementById("email").value= "";
+        document.getElementById("subject").value= "";
+        document.getElementById("message").value="";
         console.log(res);
-        alert("Your messege send successfully");
-    }
-)
-.catch((err) => console.log(err));
-}
+
+        alert("Successfully Submited");
+    })
+.catch((err)=>console.log(err)
+);
+} 
